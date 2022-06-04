@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+p {
+    font-weight: lighter;
+}
+
+#hero {
+    padding-top: 0;
+    height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/ttown.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Needed to keep the background color just on the content.*/
+    justify-content: center;
+}
+
+#hero-title {
+    /* margin-top: 0; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    background: #070D0D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#hero-subtitle {
+    background: #ffa81c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#activities {
+    padding-top: 58px;
+    padding-left: 10px;
+    background: #C19362;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#guide-card {
+    margin: 50px auto 50px auto;
+    height: 300px;
+    width: 500px;
+    background: #5E4534;
+    box-shadow: 0px 6px 0px #412015;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+#guide-text {
+    width: 250px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
